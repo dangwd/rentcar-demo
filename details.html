@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="details.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Document</title>
+</head>
+<body>
+  <div class="card-wrapper">
+    <div class="card">
+      <!-- left -->
+      <div class="product-imgs">
+        <div class="img-display">
+          <div class="img-showcase">
+            <img src="img/car1.jpg" alt="">
+            <img src="img/car2.jpg" alt="">
+            <img src="img/car3.jpg" alt="">
+            <img src="img/car4.jpg" alt="">
+          </div>
+        </div>
+        <div class="img-select">
+          <div class="img-item">
+            <a href="#" data-id = "1">
+              <img src="img/car1.jpg" alt="">
+            </a>
+          </div>
+          <div class="img-item">
+            <a href="#" data-id = "2">
+              <img src="img/car2.jpg" alt="">
+            </a>
+          </div>
+          <div class="img-item">
+            <a href="#" data-id = "3">
+              <img src="img/car5.jpg" alt="">
+            </a>
+          </div>
+          <div class="img-item">
+            <a href="#" data-id = "4">
+              <img src="img/car4.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- right -->
+      <div class="product-content">
+        <h2 class="product-title">Car Name</h2>
+        <a href="#" class="product-link">Lorem ipsum dolor sit amet.</a>
+        <div class="product-rating">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half' ></i>
+          <span>4.6(21)</span>
+        </div>
+        <div class="product-price">
+          <p class="last-price">Old Price: <span>$257.00</span></p>
+          <p class="new-price">New Price: <span>$217.00</span></p>
+        </div>
+        <div class="product-detail">
+          <h2>About this Car: </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero eum impedit expedita sapiente molestias praesentium porro unde, perferendis tempora atque.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, fuga illo eius aut mollitia molestiae soluta distinctio esse corporis porro!</p>
+          <ul>
+            <li>Color: <span>Black</span></li>
+            <li>Brand: <span>Honda</span></li>
+            <li>Capacity: <span>Demo</span></li>
+            <li>Tyoe: <span>Demo</span></li>
+            <li>Seats: <span>4</span></li>
+          </ul>
+        </div>
+        <!-- <div class="purchase-info">
+          <input type="number" min="0" value="1">
+          <button type="button" class="btn">Add to cart</button>
+          <button type="button" class="btn">Compare</button>
+        </div> -->
+        <!-- Form Validate -->
+        <h2>Enter to Rent</h2>
+        <form class="form" id="form">
+          <div class="form-control">
+            <label>Username</label>
+            <input type="text" placeholder="Enter yourname here..." id="username">
+            <!-- <i class='bx bxs-check-circle'></i>
+            <i class='bx bxs-error-circle' ></i> -->
+            <!-- <small>Error message</small> -->
+          </div>
+          <div class="form-control">
+            <label>Phone</label>
+            <input type="number" placeholder="Enter yourphone here..." id="phone">
+            <!-- <i class='bx bxs-check-circle'></i>
+            <i class='bx bxs-error-circle' ></i> -->
+            <!-- <small>Error message</small> -->
+          </div>
+          <div class="form-control">
+            <label>Email</label>
+            <input type="email" placeholder="Enter email here..." id="email">
+            <!-- <i class='bx bxs-check-circle'></i>
+            <i class='bx bxs-error-circle' ></i> -->
+            <!-- <small>Error message</small> -->
+          </div>
+          <div class="form-control">
+            <label>Address</label>
+            <input type="text" placeholder="Enter yourname here..." id="address">
+            <!-- <i class='bx bxs-check-circle'></i>
+            <i class='bx bxs-error-circle' ></i> -->
+            <!-- <small>Error message</small> -->
+          </div>
+          <div class="form-control">
+            <label>Pick-up Date</label>
+            <input type="date" placeholder="" id="pickupdate">
+            <!-- <i class='bx bxs-check-circle'></i>
+            <i class='bx bxs-error-circle' ></i> -->
+            <!-- <small>Error message</small> -->
+          </div>
+          <div class="form-control">
+            <label>Return Date</label>
+            <input type="date" placeholder="" id="returndate">
+            <!-- <i class='bx bxs-check-circle'></i>
+            <i class='bx bxs-error-circle' ></i> -->
+            <!-- <small>Error message</small> -->
+          </div>
+          <button>Confirm</button>
+        </form>
+        <div class="social-links">
+          <p>Share At: </p>
+          <a href="#">
+            <i class='bx bxl-facebook-circle' ></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-twitter' ></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram-alt' ></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-linkedin' ></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="details.js"></script>
+</body>
+</html>
